@@ -1,1 +1,25 @@
-.env
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+insurance_rag/
+rag_db/
+chroma_db/
+*.db
+
+# Temporary files
+*.log
+.DS_Store
